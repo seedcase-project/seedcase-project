@@ -1,0 +1,20 @@
+---
+title: Learn
+listing:
+  - id: shorts
+    contents: shorts
+    type: default
+    sort: "title"
+    fields: 
+      - "title"
+      - "author"
+      - "description"
+      - "date"
+---
+
+{{< include /includes/_wip.qmd >}}
+
+Here are some short lessons (~10-15 minutes) we develop to help share knowledge
+
+::: {#shorts}
+:::
