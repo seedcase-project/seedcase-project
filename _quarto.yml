@@ -21,12 +21,28 @@ website:
         href: https://community.seedcase-project.org
       - text: "Design"
         href: https://design.seedcase-project.org
+      - text: "Learn"
+        href: learn/index.qmd
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/seedcase-project"
   sidebar:
     - id: about
       title: "About"
+      pinned: true
+      style: "floating"
+      align: left
+      collapse-level: 1
+      contents:
+      - about/index.md
+      - text: "History"
+        href: about/history/index.md
+      # - text: "Mission"
+      #   href: about/mission.md
+      - text: "Team Members"
+        href: about/team/index.md
+    - id: learn
+      title: "Learn"
       pinned: true
       style: "floating"
       align: left
